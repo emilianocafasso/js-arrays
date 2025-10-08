@@ -21,11 +21,9 @@ console.log(reversedTeachers)
 // con un nome di lunghezza maggiore o uguale a 5 caratteri
 const longNames = [];
 
-let j=0;
 for(i=0; i<teachers.length; i++) {
   if(teachers[i].length >= 5) {
-    longNames[j]=teachers[i]
-    j++;
+    longNames.push (teachers[i])
   }
 }
 console.log(longNames);
