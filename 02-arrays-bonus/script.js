@@ -30,8 +30,6 @@ for(i=0; i<teachers.length; i++) {
 }
 console.log(longNames);
 
-
-
 // 3. Rimuovi 'Ed' dall'array teachers
 const index_Ed = teachers.indexOf('Ed')
 if(index_Ed!= -1) {
